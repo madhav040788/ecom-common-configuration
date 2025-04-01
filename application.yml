@@ -2,3 +2,12 @@ eureka:
   client:
     service-url:
       defaultZone=http: //localhost:8761/eureka/
+
+
+
+test:
+  input: 500000
+
+logging:
+  file:
+    name: /Users/madhavtech/Desktop/app-logs/ecom-log
